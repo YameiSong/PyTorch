@@ -30,7 +30,7 @@ You can go to the [Python website](https://www.python.org/downloads/windows/) to
 ```
 choco install python
 ```
-_**NOTE:**_ To check your Python version, run `py` in Windows PowerShell.
+_**NOTE:**_ To check your Python version, run `py -V` in Windows PowerShell.
 
 ## Package Manager
 
@@ -46,3 +46,5 @@ To install Anaconda:
 ### pip
 
 If you installed Python by any of the recommended ways above, [pip](https://pypi.org/project/pip/) will have already been installed for you.
+
+_**NOTE:**_ To check your Python version, run `pip -V` in Windows PowerShell.
