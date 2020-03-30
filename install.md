@@ -4,8 +4,8 @@
 
 PyTorch is supported on the following Windows distributions:
 
-* Minimum: Windows 7, Windows Server 2008 r2
-* Recommended: Windows 10+, Windows Server 2019+
+* __Minimum:__ Windows 7, Windows Server 2008 r2
+* __Recommended:__ Windows 10+, Windows Server 2019+
 
 ## Python
 
@@ -31,17 +31,12 @@ You can go to the [Python website](https://www.python.org/downloads/windows/) to
 choco install python
 ```
 
-<p style={
-    margin: 1em 0 1em 0;
-    padding: 0.25em 1.5em;
-    border-style: solid;
-    border-width: 0 0 0 4px;
-    background-color: rgba(0, 209, 178, 0.03);
-    border-color: #00d1b2;
-    color: #021310;
-}>
-In the PowerShell, run "py" to check Python's version.
-</p>
+---
+_**NOTE**_
+
+To check your Python version, run `py` in Windows PowerShell.
+
+---
 
 ## Package Manager
 
