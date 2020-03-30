@@ -30,9 +30,7 @@ You can go to the [Python website](https://www.python.org/downloads/windows/) to
 ```
 choco install python
 ```
-| | |
-|-|-|
-| _**NOTE**_ | To check your Python version, run `py` in Windows PowerShell. |
+_**NOTE:**_ To check your Python version, run `py` in Windows PowerShell.
 
 ## Package Manager
 
