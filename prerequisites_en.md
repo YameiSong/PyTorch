@@ -67,3 +67,8 @@ To upgrade GPU driver:
 2. Navigate to the **Help** menu and click **Updates.**
 3. In the **Updates** tab, click **Check for Updates.**
 4. Follow the instructions from NVIDIA to upgrade your GPU driver to the latest version.
+
+To check your CUDA version:
+
+1. In the **NVIDIA Control Panel**, click **System Information** at the bottom left corner. 
+2. Navigate to **Components &gt; File Name**, and then check the **File Version** of **NVCUDA.DLL**, which is your CUDA version.
