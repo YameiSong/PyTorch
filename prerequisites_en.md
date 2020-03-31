@@ -27,10 +27,12 @@ You can go to the [Python website](https://www.python.org/downloads/windows/) to
 
 1. Right-click the **Start** button, and then click **Windows PowerShell (Admin)** to run your PowerShell as an administer.
 2. In the PowerShell, run the command below:
+
 ```
 choco install python
 ```
-_**NOTE:**_ To check Python version, run `py -V` or `python -V` in Windows PowerShell.
+
+_**NOTE:**_ To check Python version, run `py -V` or `python -V` in PowerShell.
 
 ## Package Manager
 
@@ -47,7 +49,7 @@ To install Anaconda:
 
 If you installed Python by any of the recommended ways above, [pip](https://pypi.org/project/pip/) will have already been installed for you.
 
-_**NOTE:**_ To check pip version, run `pip -V` in Windows PowerShell.
+_**NOTE:**_ To check pip version, run `pip -V` in PowerShell.
 
 ## CUDA
 
@@ -61,7 +63,7 @@ To verify you have a CUDA-Capable GPU:
 
 To upgrade GPU driver:
 
-1. Right-click on the Windows desktop and select **NVIDIA Control Panel.**
-2. Navigate to the **Help** menu and select **Updates.**
+1. Right-click on the Windows desktop and click **NVIDIA Control Panel.**
+2. Navigate to the **Help** menu and click **Updates.**
 3. In the **Updates** tab, click **Check for Updates.**
 4. Follow the instructions from NVIDIA to upgrade your GPU driver to the latest version.
