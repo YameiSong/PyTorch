@@ -1,9 +1,9 @@
 # 目录
 
-* [前期准备](install_ch.md#prerequisites)
-* [通过二进制文件安装](install_ch.md#building-from-binaries)
-* [通过源代码安装](install_ch.md#building-from-source)
-* [验证](install_ch.md#verification)
+* [前期准备](install_ch.md#前期准备)
+* [通过二进制文件安装](install_ch.md#通过二进制文件安装)
+* [通过源代码安装](install_ch.md#通过源代码安装)
+* [验证](install_ch.md#验证)
 
 # 前期准备
 
