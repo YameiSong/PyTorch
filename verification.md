@@ -2,7 +2,7 @@
 
 To ensure that PyTorch was installed correctly, we can verify the installation by running sample PyTorch code. Here we will construct a randomly initialized tensor.
 
-First, right-click the **Start** button, and then select **Windows PowerShell.** Run `py` in the PowerShell.
+First, open an Anaconda prompt via **Start &gt; Anaconda3 &gt; Anaconda Prompt**, and run `python` in it.
 
 Then, enter the following code:
 
