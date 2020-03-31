@@ -40,6 +40,8 @@ To install the PyTorch binaries, you will need to use at least one of two suppor
 
 ### Anaconda
 
+<span id="anaconda"></span>
+
 To install Anaconda: 
 
 1. On the [Anaconda](https://www.anaconda.com/distribution/#windows) website, download the 64-bit graphical installer.
