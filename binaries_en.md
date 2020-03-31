@@ -1,4 +1,4 @@
-# Binaries Installation
+# Building From Binaries
 
 ## Anaconda
 

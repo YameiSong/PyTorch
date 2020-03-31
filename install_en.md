@@ -1,4 +1,13 @@
+# Table of Contents
+
+* [Prerequisites](install.md/#prerequisites)
+* [Building From Binaries](install.md/#binaries)
+* [Building From Source](install.md/#source)
+* [Verification](install.md/#verification)
+
 # Prerequisites
+
+<span id="prerequisites"></span>
 
 ## Supported Windows Distributions
 
@@ -77,7 +86,9 @@ To check your CUDA version:
 
 ![](assets/cuda_en.png)
 
-# Binaries Installation
+# Building From Binaries
+
+<span id="binaries"></span>
 
 ## Anaconda
 
@@ -111,6 +122,8 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
 # Building From Source
 
+<span id="source"></span>
+
 For the majority of PyTorch users, installing from a pre-built binary via a package manager will provide the best experience. However, there are times when you may want to install the bleeding edge PyTorch code, whether for testing or actual development on the PyTorch core. To install the latest PyTorch code, you will need to build PyTorch from source.
 
 ## Prerequisites
@@ -121,6 +134,8 @@ For the majority of PyTorch users, installing from a pre-built binary via a pack
 4. Follow the steps described [here](https://github.com/pytorch/pytorch#from-source) to build PyTorch from source.
 
 # Verification
+
+<span id="verification"></span>
 
 To ensure that PyTorch was installed correctly, we can verify the installation by running sample PyTorch code. Here we will construct a randomly initialized tensor.
 

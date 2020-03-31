@@ -1,4 +1,13 @@
+# 目录
+
+* [前期准备](install.md/#prerequisites)
+* [通过二进制文件安装](install.md/#binaries)
+* [通过源代码安装](install.md/#source)
+* [验证](install.md/#verification)
+
 # 前期准备
+
+<span id="prerequisites"></span>
 
 ## 支持的 Windows 版本
 
@@ -79,7 +88,11 @@ choco install python
 
 # 通过二进制文件安装
 
+<span id="binaries"></span>
+
 ## Anaconda
+
+<span id="anaconda"></span>
 
 如果你想通过 Anaconda 安装 PyTorch，请点击“开始 &gt; Anaconda3 &gt; Anaconda Prompt”来打开 Anaconda Prompt。
 
@@ -109,6 +122,8 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
 # 通过源代码安装
 
+<span id="source"></span>
+
 对于大多数 PyTorch 用户来说，通过程序包管理器安装预先构建的二进制文件是最佳的选择。但是，有时出于测试或者开发需求，你可能需要安装最新的 PyTorch 代码。对于情况，你可以从源代码构建 PyTorch。
 
 ## 前期准备
@@ -119,6 +134,8 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 4. 按照[这里](https://github.com/pytorch/pytorch#from-source)描述的步骤，从源代码构建 PyTorch。
 
 # 验证
+
+<span id="verification"></span>
 
 我们可以通过运行 PyTorch 的示例代码来验证是否正确安装了 PyTorch。这里我们将构造一个随机初始化的 tensor。
 
