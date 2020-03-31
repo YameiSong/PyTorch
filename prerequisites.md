@@ -48,3 +48,20 @@ To install Anaconda:
 If you installed Python by any of the recommended ways above, [pip](https://pypi.org/project/pip/) will have already been installed for you.
 
 _**NOTE:**_ To check pip version, run `pip -V` in Windows PowerShell.
+
+## CUDA
+
+It is recommended, but not required, that your Windows system has an NVIDIA GPU in order to harness the full power of PyTorch’s [CUDA support](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html?highlight=cuda#cuda-tensors).
+
+To verify you have a CUDA-Capable GPU:
+
+1. Right-click the **Start** button, and then click **Device Manager.** 
+2. Expand the **Display Adapters** section, then you will find the vendor name and model of your graphics card(s).
+3. If you have an NVIDIA card that is listed in [CUDA GPUs](http://developer.nvidia.com/cuda-gpus), that GPU is CUDA-capable.
+
+To upgrade GPU driver:
+
+1. Right-click on the Windows desktop and select **NVIDIA Control Panel.**
+2. Navigate to the **Help** menu and select **Updates.**
+3. In the **Updates** tab, click **Check for Updates.**
+4. Follow the instructions from NVIDIA to upgrade your GPU driver to the latest version.
