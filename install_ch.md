@@ -4,14 +4,14 @@
 
 以下 Windows 发行版本支持 PyTorch：
 
-* __最低:__ Windows 7, Windows Server 2008 r2
-* __推荐:__ Windows 10+, Windows Server 2019+
+* 最低: Windows 7, Windows Server 2008 r2
+* 推荐: Windows 10+, Windows Server 2019+
 
 ## Python
 
 目前，Windows 上的 PyTorch 仅支持 Python 3.x 版本，不再支持 Python 2.x 版本。
 
-Windows 系统默认未安装 Python，你可以通过以下方法安装 Python：
+Windows 系统默认未安装 Python，你可以通过以下三种方法安装 Python。
 
 ### Anaconda
 
@@ -19,11 +19,11 @@ Windows 系统默认未安装 Python，你可以通过以下方法安装 Python�
 
 ### Python官网
 
-你可以访问[Python 官方网站](https://www.python.org/downloads/windows/)，下载并安装最新的 Python 3 版本。
+你可以访问 [Python 官方网站](https://www.python.org/downloads/windows/)，下载并安装最新的 Python 3 版本。
 
 ### Chocolatey
 
-[Chocolatey](https://chocolatey.org/)是 Windows 的程序包管理器。 如果你已安装 Chocolatey，请按照以下步骤安装 Python：
+[Chocolatey](https://chocolatey.org/) 是 Windows 的程序包管理器。 如果你已安装 Chocolatey，请按照以下步骤安装 Python：
 
 1. 右键单击“开始”按钮，然后点击“Windows PowerShell（管理员）”，以通过管理员身份运行 PowerShell。
 2. 在 PowerShell 中，运行如下命令：
@@ -67,6 +67,11 @@ choco install python
 2. 打开“帮助”菜单，然后点击“更新”。
 3. 在“更新”标签页中，点击“检查更新”。
 4. 按照 NVIDIA 的说明将 GPU 驱动程序升级到最新版本。
+
+请按以下步骤查看你的 CUDA 版本：
+
+1. 在“NVIDIA 控制面板”中，点击左下角的“系统信息”。
+2. 在“组件 &gt; 3D 设置”区域查看“NVCUDA.DLL”文件的版本，这就是你的 CUDA 版本。
 
 # 通过二进制文件安装
 
