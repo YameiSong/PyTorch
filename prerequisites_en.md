@@ -61,6 +61,8 @@ To verify you have a CUDA-Capable GPU:
 2. Expand the **Display Adapters** section, then you will find the vendor name and model of your graphics card(s).
 3. If you have an NVIDIA card that is listed in [CUDA GPUs](http://developer.nvidia.com/cuda-gpus), that GPU is CUDA-capable.
 
+![](assets/gpu_en.png)
+
 To upgrade GPU driver:
 
 1. Right-click on the Windows desktop and click **NVIDIA Control Panel.**
@@ -72,3 +74,5 @@ To check your CUDA version:
 
 1. In the **NVIDIA Control Panel**, click **System Information** at the bottom left corner. 
 2. Navigate to **Components &gt; 3D Settings**, and then check your CUDA version in the **Product Name** of **NVCUDA.DLL** file.
+
+![](assets/cuda_en.png)

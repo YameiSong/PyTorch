@@ -61,6 +61,8 @@ choco install python
 2. 展开“显示适配器”，然后查看显卡的供应商名称和型号。
 3. 如果你的 NVIDIA 显卡型号位于 [CUDA GPUs](http://developer.nvidia.com/cuda-gpus) 列表中，则该显卡支持 CUDA。
 
+![](assets/gpu_ch.png)
+
 请按以下步骤升级 GPU 的驱动程序：
 
 1. 右键单击 Windows 系统桌面空白处，点击“NVIDIA 控制面板”。
@@ -72,3 +74,5 @@ choco install python
 
 1. 在“NVIDIA 控制面板”中，点击左下角的“系统信息”。
 2. 在“组件 &gt; 3D 设置”区域，在“NVCUDA.DLL”文件的产品名称中查看 CUDA 版本。
+
+![](assets/cuda_ch.png)
