@@ -71,7 +71,7 @@ choco install python
 请按以下步骤查看你的 CUDA 版本：
 
 1. 在“NVIDIA 控制面板”中，点击左下角的“系统信息”。
-2. 在“组件 &gt; 3D 设置”区域查看“NVCUDA.DLL”文件的版本，这就是你的 CUDA 版本。
+2. 在“组件 &gt; 3D 设置”区域，在“NVCUDA.DLL”文件的产品名称中查看 CUDA 版本。
 
 # 通过二进制文件安装
 
