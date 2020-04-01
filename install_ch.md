@@ -39,7 +39,7 @@ Windows 系统默认未安装 Python，你可以通过以下三种方法安装 P
 choco install python
 ```
 
-**注意：** 在 PowerShell 中运行指令 `py -V` 可查看 Python 版本。
+**注意：** 在 PowerShell 中运行指令 `py -V` 或 `python -V` 可查看 Python 版本。
 
 ## 程序包管理器
 
