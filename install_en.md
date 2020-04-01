@@ -127,7 +127,7 @@ For the majority of PyTorch users, installing from a pre-built binary via a pack
 
 # Verification
 
-To ensure that PyTorch was installed correctly, we can verify the installation by running sample PyTorch code. Here we will construct a randomly initialized tensor.
+To ensure that PyTorch was installed correctly, you can verify the installation by running sample PyTorch code. Here you will construct a randomly initialized tensor.
 
 First, open an Anaconda prompt via **Start &gt; Anaconda3 &gt; Anaconda Prompt**, and run `python` in it.
 

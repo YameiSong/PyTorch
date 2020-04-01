@@ -127,7 +127,7 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
 # 验证
 
-我们可以通过运行 PyTorch 的示例代码来验证是否正确安装了 PyTorch。这里我们将构造一个随机初始化的 tensor。
+你可以通过运行 PyTorch 的示例代码来验证是否正确安装了 PyTorch。接下来你将构造一个随机初始化的 tensor。
 
 首先，点击“开始 &gt; Anaconda3 &gt; Anaconda Prompt”来打开 Anaconda Prompt，并运行 `python` 指令。
 
