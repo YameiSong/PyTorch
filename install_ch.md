@@ -80,7 +80,7 @@ choco install python
 请按以下步骤查看你的 CUDA 版本：
 
 1. 在“NVIDIA 控制面板”中，点击左下角的“系统信息”。
-2. 在“组件 &gt; 3D 设置”区域，在“NVCUDA.DLL”文件的产品名称中查看 CUDA 版本。
+2. 在“组件 &gt; 3D 设置”区域，通过“NVCUDA.DLL”文件的产品名称查看 CUDA 版本。
 
 ![](assets/cuda_ch.png)
 
@@ -88,7 +88,7 @@ choco install python
 
 ## Anaconda
 
-如果你想通过 Anaconda 安装 PyTorch，请点击“开始 &gt; Anaconda3 &gt; Anaconda Prompt”来打开 Anaconda Prompt。
+如果你想通过 Anaconda 安装 PyTorch，请点击“开始 &gt; Anaconda3 &gt; Anaconda Prompt”来运行 Anaconda Prompt。
 
 ### 不含 CUDA 功能
 
