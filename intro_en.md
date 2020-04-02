@@ -6,7 +6,7 @@ PyTorch is an optimized tensor library for deep learning using GPUs and CPUs. It
 
 ### TorchScript
 
-With TorchScript, PyTorch provides ease-of-use and flexibility in eager mode, while smoothly switching to graph mode for speed, optimization, and functionality in C++ runtime environments.
+With TorchScript, PyTorch can soomthly switch between the eager mode and the graph mode. The former offers ease-of-use and flexibility, while the latter hightlights the speed, optimization, and functionality in C++ runtime environments.
 
 ### Distributed Training
 
@@ -14,7 +14,7 @@ Optimize performance in both research and production by taking advantage of nati
 
 ### Mobile
 
-PyTorch supports an end-to-end workflow from Python to deployment on iOS and Android. It extends the PyTorch API to cover common preprocessing and integration tasks needed for incorporating machine learning in mobile applications.
+PyTorch supports an end-to-end workflow from Python to deployment on iOS and Android. The PyTorch API covers common preprocessing and integration tasks needed for incorporating machine learning in mobile applications.
 
 ### Tools & Libraries
 

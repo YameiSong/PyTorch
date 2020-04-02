@@ -6,15 +6,15 @@ PyTorch 是一个使用 GPU 和 CPU 优化的深度学习张量库，能够在�
 
 ### TorchScript
 
-通过 TorchScript，PyTorch 可以开启急切执行模式以提升易用性和灵活性，也可以无缝过渡到图形模式以实现 C++ 运行时环境中的速度、优化和功能。
+通过 TorchScript，PyTorch 可以在即时执行模式和图形模式中无缝切换。前者着重于易用性和灵活性，后者突出表现 C++ 运行时环境中的速度、优化和功能。
 
 ### 分布式训练
 
-Python 和 C++ 支持异步执行集体操作和对等通信，PyTorch 通过利用 Python 和 C++ 的这种原生特性来优化研究和生产性能。
+Python 和 C++ 支持异步执行集体操作和对等通信，PyTorch 通过利用 Python 和 C++ 的这种原生特性来优化研究与生产的性能。
 
 ### 移动端
 
-PyTorch 支持从 Python 到 iOS 和 Android 部署的端到端工作流程。它扩展了 PyTorch 接口，以涵盖将机器学习纳入移动应用程序所需的常见预处理和集成任务。
+PyTorch 支持从 Python 端到部署于 iOS 和 Android 端的工作流程。它扩展了 PyTorch 接口，以涵盖将机器学习纳入移动应用程序所需的常见预处理和集成任务。
 
 ### 工具和库
 
