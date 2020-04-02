@@ -12,32 +12,22 @@ PyTorch 是一个使用 GPU 和 CPU 优化的深度学习张量库，能够在�
 
 Python 和 C++ 支持异步执行集体操作和对等通信，PyTorch 通过利用 Python 和 C++ 的这种原生特性来优化研究和生产性能。
 
-### Mobile
+### 移动端
 
-PyTorch supports an end-to-end workflow from Python to deployment on iOS and Android. It extends the PyTorch API to cover common preprocessing and integration tasks needed for incorporating ML in mobile applications.
+PyTorch 支持从 Python 到 iOS 和 Android 部署的端到端工作流程。它扩展了 PyTorch 接口，以涵盖将机器学习纳入移动应用程序所需的常见预处理和集成任务。
 
-PyTorch支持从Python到在iOS和Android上部署的端到端工作流程。 它扩展了PyTorch API，以涵盖将ML集成到移动应用程序中所需的常见预处理和集成任务。
+### 工具和库
 
-### Tools & Libraries
+科研和开发人员组成了活跃的社区，并建立了一个包含丰富的工具和库的生态系统，用于扩展 PyTorch 并支持从计算机视觉到强化学习等领域的开发。
 
-An active community of researchers and developers have built a rich ecosystem of tools and libraries for extending PyTorch and supporting development in areas from computer vision to reinforcement learning.
+### 原生 ONNX 支持
 
-活跃的研究人员和开发人员社区建立了丰富的工具和库生态系统，用于扩展PyTorch并支持从计算机视觉到强化学习的领域的开发。
+以标准 ONNX（开放式神经网络交换）格式导出模型，以直接访问与 ONNX 兼容的平台、运行时、可视化工具等。
 
-### Native ONNX Support
+### C++ 前端
 
-Export models in the standard ONNX (Open Neural Network Exchange) format for direct access to ONNX-compatible platforms, runtimes, visualizers, and more.
+C++ 前端是 PyTorch 的纯 C++ 接口，它遵循已建立的 Python 前端的设计和体系结构。它旨在实现关于高性能、低延迟和 bare metal C++ 应用程序的研究。
 
-以标准ONNX（开放式神经网络交换）格式导出模型，以直接访问与ONNX兼容的平台，运行时，可视化工具等。
+### 云合作伙伴
 
-### C++ Frontend
-
-The C++ frontend is a pure C++ interface to PyTorch that follows the design and architecture of the established Python frontend. It is intended to enable research in high performance, low latency and bare metal C++ applications.
-
-C ++前端是PyTorch的纯C ++接口，它遵循已建立的Python前端的设计和体系结构。 它旨在实现高性能，低延迟和裸机C ++应用程序的研究。
-
-### Cloud Partners
-
-PyTorch is well supported on major cloud platforms, providing frictionless development and easy scaling through prebuilt images, large scale training on GPUs, ability to run models in a production scale environment, and more.
-
-PyTorch在主要的云平台上得到了良好的支持，可通过预构建的图像进行无摩擦的开发并轻松扩展，在GPU上进行大规模培训，可以在生产规模环境中运行模型，等等。
+PyTorch 在主要的云平台上得到了良好的支持，可通过预构建的图像进行流畅的开发和轻松的扩展、在 GPU 上进行大规模训练、在生产级环境中运行模型，等等。
