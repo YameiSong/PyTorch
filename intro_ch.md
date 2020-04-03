@@ -26,7 +26,7 @@ PyTorch 支持从 Python 端到部署于 iOS 和 Android 端的工作流程。�
 
 ### C++ 前端
 
-C++ 前端是 PyTorch 的纯 C++ 接口，它遵循已建立的 Python 前端的设计和体系结构。它旨在实现关于高性能、低延迟和 bare metal C++ 应用程序的研究。
+C++ 前端是 PyTorch 的纯 C++ 接口，遵循已建立的 Python 前端的设计和体系结构。它旨在实现关于高性能、低延迟和 bare metal C++ 应用程序的研究。
 
 ### 云合作伙伴
 
