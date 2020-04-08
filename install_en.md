@@ -114,6 +114,34 @@ conda install pytorch torchvision cudatoolkit=9.2 -c pytorch -c defaults -c numb
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 
+## pip
+
+To install PyTorch with pip, please right-click the **Start** button, and then click **Windows PowerShell** to run your PowerShell.
+
+### No CUDA
+
+To install PyTorch via pip, and do not have a CUDA-capable system or do not require CUDA, run the following command:
+
+```
+pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+### With CUDA
+
+To install PyTorch via pip, and do have a CUDA-capable system, run one of the following commands based on the CUDA version suited to your machine:
+
+#### CUDA 9.2
+
+```
+pip install torch==1.4.0+cu92 torchvision==0.5.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+#### CUDA 10.1
+
+```
+pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
 # Building From Source
 
 For the majority of PyTorch users, installing from a pre-built binary via a package manager will provide the best experience. However, there are times when you may want to install the bleeding edge PyTorch code, whether for testing or actual development on the PyTorch core. To install the latest PyTorch code, you will need to build PyTorch from source.
